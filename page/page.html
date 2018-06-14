@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Example de page web</title>
+    </head>
+    <body>
+        <button onclick="btn('http://adresseip/MS?p=1')">Moteur 1 marche</button>
+    </body>
+    <script lang="javascript">
+        var xhr = new XMLHttpRequest(); 
+        function btn(cmdSend) {
+            xhr.open('GET', cmdSend + '&" + securityKey + "&_=' + Math.random());
+            xhr.send(null);
+        }
+    </script>
+</html>
