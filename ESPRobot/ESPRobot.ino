@@ -21,8 +21,8 @@ Timer M4;
 aREST rest = aREST();
 
 // WiFi parameters
-const char* ssid = "LaurelleWireless";
-const char* password = "LaMaisonDuBonheur";
+const char* ssid = "WIFI NAME";
+const char* password = "PASSWORD";
 
 // The port to listen for incoming TCP connections
 #define LISTEN_PORT           80
